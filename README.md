@@ -7,16 +7,16 @@ After downloading the dataset, unzip it and save the extracted files in a direct
 
 In my case, I saved the files in a folder called StackOverflow_2022. The tree structure looks like this : 
  .
-├── StackOverflow2022_EDA
-|   ├── .gitignore
-│   ├── StackOverflow_2022
-│   │   ├── README_2022.txt
-│   │   ├── so_survey_2022.pdf
-│   │   ├── survey_results_public.csv
-│   │   └── survey_results_schema.csv
-│   └── Survey_2022.ipynb
+├── StackOverflow2022_EDA  
+|   ├── .gitignore  
+│   ├── StackOverflow_2022  
+│   │   ├── README_2022.txt  
+│   │   ├── so_survey_2022.pdf  
+│   │   ├── survey_results_public.csv  
+│   │   └── survey_results_schema.csv  
+│   └── Survey_2022.ipynb  
 
-Urvey_2022.pynb is the notebook where all the analysis has been performed. 
+Survey_2022.pynb is the notebook where all the analysis has been performed. 
 As the dataset is large in size(>100MB), you might get issues to push it to github. 
 Make a .gitignore file and add the below to this :
 survey_results_public.csv
